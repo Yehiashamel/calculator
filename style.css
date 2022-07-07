@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+     background-color: #efeff2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+form{
+    width: 300px;
+    box-shadow: 4px 4px 30px rgba(0, 0,0,0.3);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color:#352f2f;
+}
+form input{
+    height: 50px;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+.numbers input{
+    height: 90%;
+    width: fit-content;
+}
