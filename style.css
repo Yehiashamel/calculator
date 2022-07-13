@@ -25,7 +25,11 @@ form input{
     text-align: center;
     width: 90%;
 }
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 0;
+}
 .numbers input{
-    height: 90%;
-    width: 24%;
+    height: 100%;
 }
