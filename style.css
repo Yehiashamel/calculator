@@ -16,6 +16,7 @@ form{
     border-radius: 12px;
     overflow: hidden;
     background-color:#352f2f;
+    margin: 10px;
 }
 form input{
     height: 50px;
