@@ -11,26 +11,36 @@ body{
      align-items: center;
 }
 form{
-    width: 400px;
-    box-shadow: 4px 4px 30px rgba(0, 0,0,0.3);
-    border-radius: 12px;
-    overflow: hidden;
-    background-color:#352f2f;
-    margin: 10px;
-}
-form input{
-    height: 50px;
-    font-size: 2rem;
-    padding: 1rem;
+    margin: 7%;
     background-color: white;
-    text-align: center;
-    width: 90%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow: 1px 1px gray;
+}
+.display{
+    margin: 8% 3% 3%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 1px gray
 }
 .numbers{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 10px 0;
+    margin: 2%;
 }
 .numbers input{
-    height: 100%;
+    color: black;
+    border: 1px solid white;
+    margin: 4px;
+    border-radius: 60px;
+    height: 50px;
+    box-shadow: 0 3px gray;
 }
